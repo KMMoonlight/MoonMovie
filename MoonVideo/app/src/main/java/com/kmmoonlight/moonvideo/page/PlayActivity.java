@@ -117,7 +117,7 @@ public class PlayActivity extends AppCompatActivity {
         webSettings.setSupportZoom(true);
         webSettings.setDomStorageEnabled(true);
         webSettings.setDatabaseEnabled(true);
-        webSettings.setCacheMode(WebSettings.LOAD_NO_CACHE);
+        //webSettings.setCacheMode(WebSettings.LOAD_NO_CACHE);
         webSettings.setBlockNetworkImage(false);
         webSettings.setAllowFileAccess(true);
         webSettings.setAppCacheEnabled(true);
